@@ -10,7 +10,7 @@
 |**EROGAZIONE-ASSSENZA UTENTE**|Il sistema non eroga la pillola e lo notifica all'utente. Il sistema va in stato di stallo dopo che per tre volte (cinque minuti di distanza per volta) l'utente non si è presentato o ha posticipato l'erogazione della pillola(max 3).| H |MUST HAVE|
 |**EROGAZIONE-MANCATO PRELIEVO DELLA PILLOLA**||||
 |**EROGAZIONE-NUMERO INSUFFICIENTE DI PILLOLE NELLO STACK**|L'insufficienza si verifica quando il sistema deve erogare un numero di pillole maggiore (>) rispetto a quello che è presente nello stack. Altrimenti il sistema va in stallo.| H| MUST HAVE|
-|**EROGAZIONE-PILLOLE SCADUTE**||||
+|**EROGAZIONE-PILLOLE SCADUTE**|DA DECIDERE|||
 |**ERRORE-STALLO**|Se il sistema si trova in stato di stallo quando si presentano i casi di erroe riguardanti Riempimento ed Erogazione. A questo punto viene attivata una lista e all'utente vengono presentate in ordine all'utente al termine dello stallo0 porponendo alternative per egstirle.Il termine dello stando si verifica quando  l'evento scatenante dello stallo viene gestito dall'utente. |H |MUST HAVE
 |**RIEMPIMENTO-SATURAZIONE STACK**|Durante la modalità di riempimento il sistema avverte l'utente che il tubo ha raggiunto la quantità indicativa di riempimento (es. 10 pillole inserite), l'utente ne può inserire anche altre. Il sistema rileva la saturazione del tubo e automaticamente svuota una parte del tubo (es. 3 pillole). L'utente è invitato a inserie altre pillole|H|MUST HAVE|
-|Schermata modifica| Interfaccia che permette all'utente la modifica del singolo tubo. L'utente può personalizzare il tubo in modo da associargli un nome/etichetta  TIMER A SCHERMO||
+|GUI| Interfaccia|H|MUST HAVE|
