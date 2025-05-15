@@ -1,4 +1,4 @@
-#CaterPill
+# CaterPill
 CaterPill è un dispenser intelligente di pillole medicinali, ideato per rendere semplici e intuitive la pianificazione e la gestione dei periodi di assunzione di medicinali.
 Il sistema fornisce un'interfaccia grafica per registrare un piano mensile di assunzione di medicinali, e può ospitare fino a tre diverse tipologie di pillole (collezionate in stack indipendenti), implementando un gestore dell'inventario che tiene traccia, in vece dell'utente, delle quantità di pillole disponibili, della necessità di rimpinguare i serbatoi e della scadenza dei medicinali immagazzinati.
 Grazie ai sistemi di segnalazione acustica e notifica grafica, CaterPill garantisce che l'utente non dimentichi mai gli orari di assunzione, consentendo eventualmente di posticipare l'erogazione ad un momento successivo della giornata {o saltare l'erogazione per la giornata corrente}.
